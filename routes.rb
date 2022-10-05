@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'json'
 require 'dotenv/load'
-require_relative './database/database_conf.rb'
+# require_relative './database/database_conf.rb'
 
 
 post '/' do
@@ -14,4 +14,7 @@ post '/' do
 
     latitude.to_s
     longitude.to_s
+
+
+    
 end
